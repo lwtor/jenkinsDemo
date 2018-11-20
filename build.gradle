@@ -23,5 +23,9 @@ allprojects {
 }
 
 task clean(type: Delete) {
-    delete rootProject.buildDir
+ }
+
+task test(){
+    println 'hello world'
+    print aaAA.toBoolean()
 }
